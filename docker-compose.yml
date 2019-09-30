@@ -7,8 +7,8 @@ services:
     hostname: terminalserver
     restart: always
     shm_size: 1g
-    environment:
-       PASSWORDHASH: $$1$$z53Cg/fV$$06o379IvIOxj/ESruVKrG1
+    environment:       
+       PASSWORDHASH: $$1$$E5VxDSKu$$ITK3IZEd/JJCAQf2n4ZmA0
        IDLETIME: 11
     ports:
       - "3389:3389"
